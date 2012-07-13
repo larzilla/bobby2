@@ -58,16 +58,20 @@
 		background-color: #cccccc !important;
 		color: #666666;	
 	}
-
-	h3 {
-		margin:0px;
-		padding-left:6px;
-		padding-right:6px;
+	section#frank, section#timmy {
+		clear: both;
+		border-top: 3px solid #CCCCCC;
+		margin-bottom: 40px;
+		overflow: hidden;
+		padding-top: 20px;
+		text-align: left;
+	}
+	h1 {
+		margin: 0px;
+		padding: 20px 6px;
 		color:#000000;
-		font-weight: normal;
-		font-family: Georgia, "Times New Roman", Times, serif;
-		font-weight: normal;
-		font-size: 30px;
+		font: normal 30px Georgia, "Times New Roman", Times, serif;
+		text-align: left;
 	}
 	h4 {
 		color: #333333;

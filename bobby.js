@@ -54,7 +54,7 @@ str = str.multiReplace({
     return str;
 }
 
- $(function(){
+ $(document).ready(function(){
     $("textarea").blur(function(){
         $(this).val(removeMSWordChars(this.value));
     });
