@@ -1,0 +1,212 @@
+	body {
+	background: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size:12px;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+	}
+	#header {
+		text-align:left;
+	}
+	#header h1 {
+		color: #6E6D6B;
+		font-family: Rockwell, Rockwell Condensed, Arial, Helvetica;
+	}	
+	#wrapper {
+		margin: 0 auto;
+		width:90%;
+		padding: 0;
+	}
+	.hints {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		color: #666666;	
+	}
+	#left {
+		width:65%;
+		text-align: left;
+		float:left;
+		padding-left: 20px;
+	}
+	#left p {
+		color: #6E6D6B;
+		font-family: Georgia, "Times New Roman", Times, serif;	
+	}
+	#right {
+		width: 30%;
+		text-align:left;
+		float:right;
+		line-height: 20px;
+		margin:0px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+	}
+	textarea, input, select {
+		background-color: #222222;
+		color: #F2EF85;	
+	}
+	textarea {
+		border: 3px solid #D4E4EA;
+		padding: 10px;
+		width: 100%;
+		height: 550px;
+	}
+	input {
+		padding: 3px;
+	}
+	input.output {
+		background-color: #cccccc !important;
+		color: #666666;	
+	}
+
+	h3 {
+		margin:0px;
+		padding-left:6px;
+		padding-right:6px;
+		color:#000000;
+		font-weight: normal;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-weight: normal;
+		font-size: 30px;
+	}
+	h4 {
+		color: #333333;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		
+	}
+	.important {
+		text-transform: uppercase;
+		background-color:#FFFF00;
+		color: #000;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 12px;	
+	}
+	
+	/*Buttons*/
+	.actions 
+	{
+		margin: 5px 0 30px;
+	}
+	.actions a.blue {
+		background: -moz-linear-gradient(center top , #1F6ACD, #0553BA) repeat scroll 0 0 transparent !important;
+	}
+	
+	.green, .actions a {
+    background: -moz-linear-gradient(center top , #8EAF53, #799E3C) repeat scroll 0 0 transparent;
+    border: 1px solid #6BA147;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #619C33;
+	}
+	.button, .actions a {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font-family: tahoma,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 12px;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+	
+	#message {
+		background: none repeat scroll 0 0 #E3EDF4;
+		border: 1px solid #C9DBEC;
+		color: #333;
+		padding: 8px;
+		font-size: 18px;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style: italic;
+		text-transform: uppercase;
+		
+	}
+	#message .actions {
+		margin: 0;		
+	}
+	#message .actions a {
+		margin-top: 0px;	
+	}
+	#SelectAllBtn {
+		background-color:#1951B9;
+	}
+	.howto {
+		border-left: 1px solid #CCCCCC;
+		color: #444444;
+		margin-top: 5px;
+		padding: 0px;
+	}
+	.howto p, .howto h4, .howto table {
+		margin-left: 10px;	
+	}
+	.howto h2 {
+		color: #999999;
+		text-transform: uppercase;
+		background: #fafafa;
+		width: 100%;
+		display:block;
+		font-family: Arial, Verdana, Geneva, sans-serif;
+		padding:0px 10px;
+		font-weight: normal;
+		font-size: 16px;
+	}
+	.howto h4 {
+		font-weight: normal !important;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 18px;
+	}
+	.howto td.lightblue {
+		background: #D4E4EA;	
+	}
+	.howto table {
+		font-family: "Courier New", Courier, monospace;	
+	}
+	/* Frank */
+	
+#frank {
+	border-top: 3px solid #cccccc;	
+	padding-top: 20px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+#left h2 {
+	font-weight: normal !important;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+#left .label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#frank 	.actions 
+	{
+		margin: 0px 0 0px;
+	}
+#frank .actions a {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font-family: tahoma,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+/* Jim Bob */
+
+#timmy {
+	padding-top: 20px;
+	text-align: left;	
+	border-top: 3px solid #cccccc;
+	margin-bottom: 40px;
+}
+
